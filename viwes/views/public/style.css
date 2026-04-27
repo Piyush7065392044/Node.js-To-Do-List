@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  padding: 16px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: #1e40af;
+  transform: translateY(-2px);
+}
+
+nav ul li a:active {
+  transform: scale(0.96);
+}
+/* add task page csss  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f7fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Form Container */
+.form-container {
+  width: 420px;
+  background: white;
+  margin: 60px auto;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* Form Inputs */
+form input,
+form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.25);
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+form button:active {
+  transform: scale(0.98);
+}
+/*  list showingdata */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f5f9;
+}
+
+/* Main Container */
+.container{
+  width: 80%;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Heading */
+.container h1{
+  text-align: center;
+  font-size: 34px;
+  color: #111827;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+/* Remove default ul style */
+ul{
+  list-style: none;
+}
+
+/* Each Task Box */
+ul div{
+  background: #f9fafb;
+  padding: 20px;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  border-left: 6px solid #2563eb;
+  transition: 0.3s ease;
+}
+
+ul div:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+/* Task Name */
+ul div li:first-child{
+  list-style: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+/* Task Details */
+ul div li:last-child{
+  list-style: none;
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Delete Button */
+.delet-item{
+  display: inline-block;
+  text-decoration: none;
+  background: #ef4444;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.delet-item:hover{
+  background: #dc2626;
+  transform: scale(1.05);
+}
+
+.delet-item:active{
+  transform: scale(0.95);
+}
+/*  update  */
+.update-item{
+  display: inline-block;
+  text-decoration: none;
+  background: #2ad400;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.update-item:hover{
+  background: #d1bc00;
+  transform: scale(1.05);
+}
+
+.update-item:active{
+  transform: scale(0.95);
+}

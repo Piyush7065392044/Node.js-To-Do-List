@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Page</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <%- include('navbar') %>
+
+  <div class="form-container">
+    <h1>Update Task</h1>
+
+    <form action="/update" method="post">
+
+      <input 
+        type="hidden"
+        name="id"
+        value="<%= result._id %>"
+      >
+
+      <input 
+        type="text" 
+        name="newtask"
+        value="<%= result.taskname %>"
+        placeholder="Enter New Task Name"
+        required
+      >
+
+      <textarea 
+        name="updatedetails"
+        placeholder="Enter Updated Details"
+        rows="5"
+        required
+      ><%= result.taskdetails %></textarea>
+
+      <button type="submit">Update Task</button>
+
+    </form>
+  </div>
+
+</body>
+</html>
